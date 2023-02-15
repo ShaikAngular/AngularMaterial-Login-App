@@ -78,7 +78,8 @@
               "browserTarget": "Angular-Material-Login:build:production"
             },
             "development": {
-              "browserTarget": "Angular-Material-Login:build:development"
+              "browserTarget": "Angular-Material-Login:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
